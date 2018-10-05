@@ -13,6 +13,24 @@
 		D970533621668BB500D3A168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D970533521668BB500D3A168 /* Assets.xcassets */; };
 		D970533921668BB500D3A168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D970533721668BB500D3A168 /* LaunchScreen.storyboard */; };
 		D970534421668BB500D3A168 /* ZhymmiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970534321668BB500D3A168 /* ZhymmiTests.swift */; };
+		D970534F21668DA500D3A168 /* MAinCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970534E21668DA500D3A168 /* MAinCoordinator.swift */; };
+		D970535121668E1000D3A168 /* ModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970535021668E1000D3A168 /* ModuleProtocol.swift */; };
+		D970535321668E6900D3A168 /* ChooseTargetModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970535221668E6900D3A168 /* ChooseTargetModule.swift */; };
+		D9705355216692FD00D3A168 /* MainCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9705354216692FD00D3A168 /* MainCoordinatorTests.swift */; };
+		D97053572166946100D3A168 /* MockUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97053562166946100D3A168 /* MockUserDefaults.swift */; };
+		D97053592166956E00D3A168 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97053582166956E00D3A168 /* DataStorage.swift */; };
+		D970535B216696C100D3A168 /* UserDefaultsDataStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970535A216696C100D3A168 /* UserDefaultsDataStorageTests.swift */; };
+		D970535D21669ACB00D3A168 /* ChooseYourTarget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D970535C21669ACB00D3A168 /* ChooseYourTarget.storyboard */; };
+		D970535F21669CDE00D3A168 /* ChooseTagetModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970535E21669CDE00D3A168 /* ChooseTagetModuleTests.swift */; };
+		D970536121669D6C00D3A168 /* ChooseYourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970536021669D6C00D3A168 /* ChooseYourViewController.swift */; };
+		D970536321669DA900D3A168 /* ChooseTargetModuleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970536221669DA900D3A168 /* ChooseTargetModuleConfiguration.swift */; };
+		D97053662166A08400D3A168 /* ChooseYourTargetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97053652166A08400D3A168 /* ChooseYourTargetPresenter.swift */; };
+		D97053682166A0D800D3A168 /* ChooseYourTargetPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97053672166A0D800D3A168 /* ChooseYourTargetPresenterTests.swift */; };
+		D970536A2166A1FD00D3A168 /* MockChooseYourTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97053692166A1FD00D3A168 /* MockChooseYourTargetView.swift */; };
+		D970536C2166A36000D3A168 /* MockChooseYourTargetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970536B2166A36000D3A168 /* MockChooseYourTargetInteractor.swift */; };
+		D970536F2166A54E00D3A168 /* ChooseYourTargetViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970536E2166A54E00D3A168 /* ChooseYourTargetViewTests.swift */; };
+		D97053712166A5E400D3A168 /* MockChooseYourTargetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97053702166A5E400D3A168 /* MockChooseYourTargetPresenter.swift */; };
+		D97053732166A80A00D3A168 /* ChooseYourTargetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97053722166A80A00D3A168 /* ChooseYourTargetInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,24 @@
 		D970533F21668BB500D3A168 /* ZhymmiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhymmiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D970534321668BB500D3A168 /* ZhymmiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhymmiTests.swift; sourceTree = "<group>"; };
 		D970534521668BB600D3A168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D970534E21668DA500D3A168 /* MAinCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAinCoordinator.swift; sourceTree = "<group>"; };
+		D970535021668E1000D3A168 /* ModuleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleProtocol.swift; sourceTree = "<group>"; };
+		D970535221668E6900D3A168 /* ChooseTargetModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTargetModule.swift; sourceTree = "<group>"; };
+		D9705354216692FD00D3A168 /* MainCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorTests.swift; sourceTree = "<group>"; };
+		D97053562166946100D3A168 /* MockUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaults.swift; sourceTree = "<group>"; };
+		D97053582166956E00D3A168 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		D970535A216696C100D3A168 /* UserDefaultsDataStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsDataStorageTests.swift; sourceTree = "<group>"; };
+		D970535C21669ACB00D3A168 /* ChooseYourTarget.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseYourTarget.storyboard; sourceTree = "<group>"; };
+		D970535E21669CDE00D3A168 /* ChooseTagetModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTagetModuleTests.swift; sourceTree = "<group>"; };
+		D970536021669D6C00D3A168 /* ChooseYourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourViewController.swift; sourceTree = "<group>"; };
+		D970536221669DA900D3A168 /* ChooseTargetModuleConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTargetModuleConfiguration.swift; sourceTree = "<group>"; };
+		D97053652166A08400D3A168 /* ChooseYourTargetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourTargetPresenter.swift; sourceTree = "<group>"; };
+		D97053672166A0D800D3A168 /* ChooseYourTargetPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourTargetPresenterTests.swift; sourceTree = "<group>"; };
+		D97053692166A1FD00D3A168 /* MockChooseYourTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChooseYourTargetView.swift; sourceTree = "<group>"; };
+		D970536B2166A36000D3A168 /* MockChooseYourTargetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChooseYourTargetInteractor.swift; sourceTree = "<group>"; };
+		D970536E2166A54E00D3A168 /* ChooseYourTargetViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourTargetViewTests.swift; sourceTree = "<group>"; };
+		D97053702166A5E400D3A168 /* MockChooseYourTargetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChooseYourTargetPresenter.swift; sourceTree = "<group>"; };
+		D97053722166A80A00D3A168 /* ChooseYourTargetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourTargetInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +119,10 @@
 				D970533521668BB500D3A168 /* Assets.xcassets */,
 				D970533721668BB500D3A168 /* LaunchScreen.storyboard */,
 				D970533A21668BB500D3A168 /* Info.plist */,
+				D970534E21668DA500D3A168 /* MAinCoordinator.swift */,
+				D970535021668E1000D3A168 /* ModuleProtocol.swift */,
+				D970536421669DB600D3A168 /* ChooseYourTarget */,
+				D97053582166956E00D3A168 /* DataStorage.swift */,
 			);
 			path = Zhymmi;
 			sourceTree = "<group>";
@@ -92,8 +132,38 @@
 			children = (
 				D970534321668BB500D3A168 /* ZhymmiTests.swift */,
 				D970534521668BB600D3A168 /* Info.plist */,
+				D9705354216692FD00D3A168 /* MainCoordinatorTests.swift */,
+				D97053562166946100D3A168 /* MockUserDefaults.swift */,
+				D970535A216696C100D3A168 /* UserDefaultsDataStorageTests.swift */,
+				D970536D2166A51F00D3A168 /* ChooseYourTarget */,
 			);
 			path = ZhymmiTests;
+			sourceTree = "<group>";
+		};
+		D970536421669DB600D3A168 /* ChooseYourTarget */ = {
+			isa = PBXGroup;
+			children = (
+				D970535221668E6900D3A168 /* ChooseTargetModule.swift */,
+				D970535C21669ACB00D3A168 /* ChooseYourTarget.storyboard */,
+				D970536021669D6C00D3A168 /* ChooseYourViewController.swift */,
+				D970536221669DA900D3A168 /* ChooseTargetModuleConfiguration.swift */,
+				D97053652166A08400D3A168 /* ChooseYourTargetPresenter.swift */,
+				D97053722166A80A00D3A168 /* ChooseYourTargetInteractor.swift */,
+			);
+			path = ChooseYourTarget;
+			sourceTree = "<group>";
+		};
+		D970536D2166A51F00D3A168 /* ChooseYourTarget */ = {
+			isa = PBXGroup;
+			children = (
+				D970535E21669CDE00D3A168 /* ChooseTagetModuleTests.swift */,
+				D97053672166A0D800D3A168 /* ChooseYourTargetPresenterTests.swift */,
+				D97053692166A1FD00D3A168 /* MockChooseYourTargetView.swift */,
+				D970536B2166A36000D3A168 /* MockChooseYourTargetInteractor.swift */,
+				D970536E2166A54E00D3A168 /* ChooseYourTargetViewTests.swift */,
+				D97053702166A5E400D3A168 /* MockChooseYourTargetPresenter.swift */,
+			);
+			path = ChooseYourTarget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D970533921668BB500D3A168 /* LaunchScreen.storyboard in Resources */,
+				D970535D21669ACB00D3A168 /* ChooseYourTarget.storyboard in Resources */,
 				D970533621668BB500D3A168 /* Assets.xcassets in Resources */,
 				D970533421668BA600D3A168 /* Main.storyboard in Resources */,
 			);
@@ -197,8 +268,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97053732166A80A00D3A168 /* ChooseYourTargetInteractor.swift in Sources */,
 				D970533121668BA600D3A168 /* ViewController.swift in Sources */,
+				D970535321668E6900D3A168 /* ChooseTargetModule.swift in Sources */,
 				D970532F21668BA600D3A168 /* AppDelegate.swift in Sources */,
+				D970536121669D6C00D3A168 /* ChooseYourViewController.swift in Sources */,
+				D97053592166956E00D3A168 /* DataStorage.swift in Sources */,
+				D970534F21668DA500D3A168 /* MAinCoordinator.swift in Sources */,
+				D970536321669DA900D3A168 /* ChooseTargetModuleConfiguration.swift in Sources */,
+				D97053662166A08400D3A168 /* ChooseYourTargetPresenter.swift in Sources */,
+				D970535121668E1000D3A168 /* ModuleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D970534421668BB500D3A168 /* ZhymmiTests.swift in Sources */,
+				D9705355216692FD00D3A168 /* MainCoordinatorTests.swift in Sources */,
+				D970535B216696C100D3A168 /* UserDefaultsDataStorageTests.swift in Sources */,
+				D970536C2166A36000D3A168 /* MockChooseYourTargetInteractor.swift in Sources */,
+				D970536A2166A1FD00D3A168 /* MockChooseYourTargetView.swift in Sources */,
+				D97053712166A5E400D3A168 /* MockChooseYourTargetPresenter.swift in Sources */,
+				D97053682166A0D800D3A168 /* ChooseYourTargetPresenterTests.swift in Sources */,
+				D970536F2166A54E00D3A168 /* ChooseYourTargetViewTests.swift in Sources */,
+				D97053572166946100D3A168 /* MockUserDefaults.swift in Sources */,
+				D970535F21669CDE00D3A168 /* ChooseTagetModuleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bfe-8H-fAJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Choose Your View Controller-->
+        <scene sceneID="OQg-ew-rRH">
+            <objects>
+                <viewController id="Bfe-8H-fAJ" customClass="ChooseYourViewController" customModule="Zhymmi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xac-O3-0r6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your target is to press %s in %s repeats" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGE-3D-txh">
+                                <rect key="frame" x="16" y="64" width="343" height="22.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaC-dU-Tcz">
+                                <rect key="frame" x="16" y="109" width="343" height="30"/>
+                                <color key="backgroundColor" red="0.5" green="1" blue="0.88206018519999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Set target">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZaC-dU-Tcz" firstAttribute="leading" secondItem="CGE-3D-txh" secondAttribute="leading" id="1FO-V2-hJM"/>
+                            <constraint firstItem="ZaC-dU-Tcz" firstAttribute="trailing" secondItem="CGE-3D-txh" secondAttribute="trailing" id="6VO-zp-vhp"/>
+                            <constraint firstItem="CGE-3D-txh" firstAttribute="top" secondItem="Q7R-OD-NSs" secondAttribute="top" constant="44" id="K5m-ZD-WRE"/>
+                            <constraint firstItem="ZaC-dU-Tcz" firstAttribute="top" secondItem="CGE-3D-txh" secondAttribute="bottom" constant="22.5" id="ZW3-jF-1pJ"/>
+                            <constraint firstItem="CGE-3D-txh" firstAttribute="leading" secondItem="Q7R-OD-NSs" secondAttribute="leading" constant="16" id="bHw-vh-xEn"/>
+                            <constraint firstItem="Q7R-OD-NSs" firstAttribute="trailing" secondItem="CGE-3D-txh" secondAttribute="trailing" constant="16" id="wmb-Yx-2LZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q7R-OD-NSs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgu-lQ-357" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
