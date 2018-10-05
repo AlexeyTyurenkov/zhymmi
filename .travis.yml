@@ -1,5 +1,6 @@
 language: objective-c
+osx_image: xcode10
 xcode_project: Zhymmi.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Zhymmi
-xcode_sdk: iphonesimulator11.4
+xcode_sdk: iphonesimulator12.0
 
